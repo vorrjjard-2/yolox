@@ -155,14 +155,14 @@ experiments/
 tensorboard/
 wandb/
 
-# Data directories (uncomment if you want to ignore data)
-# data/
-# datasets/
-# *.csv
-# *.json
-# *.txt
-# *.zip
-# *.tar.gz
+ #Data directories (uncomment if you want to ignore data)
+ data/
+ datasets/
+ *.csv
+ *.json
+ *.txt
+ *.zip
+ *.tar.gz
 
 # IDE and editor files
 .vscode/
