@@ -24,11 +24,7 @@ def pre_index(annotation_path):
         id_images[id] = [item['file_name'], item['width'], item['height']]
     
     for item in annotations['categories']:
-        category_id
+        category_id = item['id']
+        id_categories[category_id] = item['name']
         
-
-
-    return id_annotations
-
-data = pre_index('datasets/COCO/train/_annotations.coco.json')
-print(data[3])
+    return id_annotations, id_images, id_categories
